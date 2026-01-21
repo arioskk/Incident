@@ -8,7 +8,7 @@ export const TIME: { [key: string]: number } = {
 
 }
 export const [ERROR, OK_EMOJI]: string[] = ['🆘', '🆗'];
-const EMBED_URL: string = 'https://pasteboard.co/Yba2uR5c85RG.png';
+const EMBED_URL: string = 'C:\Users\Katie\Downloads\timer.png';
 
 export const getDaysSince: Function = (start: { [key: string]: number }): number => {
     if (start.month > 12 || start.month < 1) return -1;                         // make sure that a valid month is provided (1-12)
