@@ -31,7 +31,7 @@ export const embedUsage: Function = (botID: number): MessageEmbed => {
 
 export const embedDaysSince = (dayCount: number, dayStart: string): MessageEmbed => {
     return new MessageEmbed()
-        .setTitle(` Day of last Ragnar Incident                                     <a:arrow:1463406147628302376> \`${dayStart}\``)
+        .setTitle(` Day of last Ragnar Incident                                            <a:arrow:1463406147628302376> \`${dayStart}\``)
         .setColor('#31010b')
         .setFields([
             { name: '**Days free:**', value: `${dayCount}` }
