@@ -17,7 +17,7 @@ const client: DiscordJS.Client = new DiscordJS.Client({
 
 client.on('ready', (): void => {
     console.log(`${client.user!.tag} is online!`)
-    client.user!.setActivity('Counting Days...');
+    client.user!.setActivity('counting the days...');
 });
 
 client.on('messageCreate', async (msg: DiscordJS.Message): Promise<void> => {
